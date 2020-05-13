@@ -31,7 +31,7 @@ public class UserController {
 
     @RequestMapping("getUser")
     public String GetUser(  HttpServletRequest request ){
-        System.out.println("spring+mybatisdemo测试，1.git测试日志打印，2.git测试提交远程服务器，3.测试pull");
+        System.out.println("spring+mybatisdemo测试，1.git测试日志打印，2.git测试提交远程服务器，3.测试pull，4.测试比较功能");
         String status=request.getParameter("status");
         String pageNo=request.getParameter("pageNo");
         String size=request.getParameter("size");

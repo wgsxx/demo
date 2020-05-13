@@ -7,6 +7,8 @@ public class User {
     private String realName;
     private Integer status;
 
+    private boolean isRich;
+
     public Integer getId() {
         return id;
     }
@@ -45,6 +47,14 @@ public class User {
 
     public void setStatus(Integer status) {
         this.status = status;
+    }
+
+    public boolean isRich() {
+        return isRich;
+    }
+
+    public void setRich(boolean rich) {
+        isRich = rich;
     }
 
     @Override
